@@ -1,0 +1,63 @@
+.hotProduct
+{
+  width: 80%;
+  height: 450px;
+  margin-left: 200px;
+}
+.hotProduct span
+{
+  font-size: 22px;
+  line-height: 40px;
+  color: black;
+  margin: 5px;
+}
+.contented
+{
+  padding: 0px;
+  display: flex;
+  margin-top: 20px;
+}
+.contented .sanpham
+{
+  margin-left: 40px;
+  
+}
+.sanpham .anh
+{
+  height: 240px;
+  width: 240px;
+  overflow: hidden;
+  background: #FFFFFF;
+}
+.anh img
+{
+  margin-left: 10px;
+  height: 220px;
+  width: 220px;
+  transition-duration: 0.3s;
+}
+.anh img:hover {
+    transform: scale(1.5);
+}
+.sanpham .titled
+{
+  width: 220px;
+  margin-top: 30px;
+}
+.titled .word
+{
+     font-size: 14px;
+     cursor: pointer;
+     margin-top: 30px;
+     color: #696969;
+}
+.sanpham .price span
+{
+  font-size: 18px;
+  margin-left: 0px;
+  font-family: "Oswald";
+}
+.price span strike
+{
+  color: #808080;
+}
